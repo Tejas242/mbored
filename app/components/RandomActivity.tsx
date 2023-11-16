@@ -79,7 +79,7 @@ const RandomActivity: React.FC = () => {
     <div className="bg-gray-800 p-8 rounded-lg shadow-md text-center w-full max-w-md backdrop-blur-lg backdrop-saturate-150 bg-opacity-30">
         {/* Heading */}
         <h2 className="text-4xl mb-6 font-bold text-gray-200">
-          Random Activity Generator
+          Random Activity Generator <p className="text-sm text-grey-200">when you're bored</p>
         </h2>
 
         {/* Filter dropdowns */}
