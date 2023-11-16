@@ -141,7 +141,7 @@ const RandomActivity: React.FC = () => {
               rel="noopener noreferrer"
               className="underline"
             >
-              Tejas242
+              Tejas Mahajan
             </a>
           </p>
         </div>
