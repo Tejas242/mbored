@@ -29,7 +29,7 @@ const RandomActivity: React.FC = () => {
   // Function to fetch a random activity based on filters
   const fetchRandomActivity = async () => {
     const { type, participants } = filters;
-    let apiUrl = "http://www.boredapi.com/api/activity/";
+    let apiUrl = "https://www.boredapi.com/api/activity/";
 
     if (type) {
       apiUrl += `?type=${type}`;
