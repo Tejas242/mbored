@@ -75,8 +75,8 @@ const RandomActivity: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-body">
-      <div className="bg-gray-800 p-8 rounded-lg shadow-md text-center w-full max-w-md">
+    <div className="bg-gradient-to-r from-purple-600 to-indigo-600 min-h-screen flex items-center justify-center">
+    <div className="bg-gray-800 p-8 rounded-lg shadow-md text-center w-full max-w-md backdrop-blur-lg backdrop-saturate-150 bg-opacity-30">
         {/* Heading */}
         <h2 className="text-4xl mb-6 font-bold text-gray-200">
           Random Activity Generator
